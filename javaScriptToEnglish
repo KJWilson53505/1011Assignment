@@ -1,0 +1,92 @@
+var javaScriptToEnglish = {
+    1: {
+      expression: " A string containing the word pie",
+      dataType: "String",
+      value: "pie",
+    },
+    
+    2: {
+      expression: "Five plus six divided by 2",
+      dataType: "Integer",
+      value: 8,
+    },
+    
+    3: {
+      expression: "An expression whose value is ready or not.",
+      dataType: "String",
+      value: "ready",
+    },
+    
+    4: {
+      expression: "An expression with the value not the string nice",
+      dataType: "Boolean",
+      value: false,
+    },
+    
+    5: {
+      expression: "An expression whose value is whether 5 is less than 4 and greater than or equal to 10",
+      dataType: "Boolean",
+      value: true,
+    },
+    
+    6: {
+      expression: "An expression whose value is true and not false",
+      dataType: "Boolean",
+      value: true,
+    },
+    
+    7: {
+      expression: "An expression whose value is not true or false",
+      dataType: "Boolean",
+      value: false,
+    },
+    
+    8: {
+      expression: "Nine multiplied by nine divided by nine",
+      dataType: "Integer",
+      value: 9,
+    },
+    
+    9: {
+      expression: 'A string concatenation of the strings "night", "and", "day"',
+      dataType: "String",
+      value: "nightandday",
+    },
+    
+    10: {
+      expression: " The number ten plus a string containing 10",
+      dataType: "String",
+      value: "1010",
+    },
+    
+    11: {
+      expression: 'An array consisting of two objects with properties quantity and ingredient. The first object has a quantity of two and ingredient of "egg". The second object has a quantity of one and an ingredient of "avocado" ',
+      dataType: "Array",
+      value: "[Object, Object]",
+    },
+    
+    12: {
+      expression: "An an array with the value (calculated by the computer) of two to the power of zero ascending to and including four",
+      dataType: "Array",
+      value: "[1, 2, 4, 8]",
+    },
+    
+    13: {
+      expression: "An object with the property sum, that calculates two plus three, product, that calculates two multiplied by three, and mod that calculates two modulo three ",
+      dataType: "Object",
+      value: "{sum: 5, product: 6, mod: 2}",
+    },
+  
+    14: {
+      expression: "twelve multiplied by twelve minues twelve divided by negative twelve modulo three",
+      dataType: "Integer",
+      value: 145,
+    },
+    
+    15: {
+      expression: 'An expression that has a value of "no" if 5-5 is true and "yes" if 5-5 is false',
+      dataType: "String",
+      value: "yes",
+    },
+
+};
