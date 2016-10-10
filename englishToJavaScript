@@ -1,0 +1,80 @@
+var englishToJavaScript1 = {
+    1: "ABC",
+    2: (5/2),
+    3: 64,
+    4: "64",
+    5: newDate(1912, 5, 23),
+    6: "111",
+    7: "\u{1F4A9}" + "\u{1F338}",
+    8: "Not".length!==0,
+    9: Infinity + 5,
+    10: 9 * (3 +12),
+    11: "The answer is" + (20 + 12),
+    12: (1 / 0) === Infinity, /*help from internet*/
+    13: ((-10 < 4) && (4 < 3)),
+    14: (("hello" === "goodbye") || (20 < 10)),
+    15: Math.sin(2 * Math.PI),
+    16: new Date(1970, 0, 1),
+    17: ("complex" === "imaginary") ? 1 : "!",
+    18: (Infinity / Infinity) === 1,
+    19: "C\u{00E9}sar Ch\u{00E1}vez",
+    20: -1 * (-4),
+};
+
+var javaScriptToEnglish = {
+    1: [2, 3, 5, 7, 11, 13, 17, 19],
+    2: [
+    {lastName: "Davis", firstName: "Geena"}, {lastName: "Sarandon", firstName: "Susan"}
+    ],
+    3: {
+      amount: 1000,
+      currecny: "$",
+    },
+    4: {
+      dream1: {
+        location: "Los Angeles",
+        subdream: "Rainy day in LA, Fischer ans Saito are taken to a warehouse",
+      },
+      dream2: {
+        location: "hotel",
+        subdream: "Cool rotating hallway fight scene"
+      },
+      dream3: {
+        location: "fortress",
+        subdream: "The team infiltrates a snowy mountain fortress"
+      },
+
+    },
+    5: ["The Hunger Games", "Catching Fire", "Mocking Jay"],
+    6: {
+      parents: [{
+        firstName: "Richard",
+        lastName: "Williams"
+      }, {
+        firstName: "Oracene",
+        lastName: "Price"
+      }],
+      children: [{
+        firstName: "Serena",
+        lastName: "Williams"
+      }, {
+        firstName: "Veuns",
+        lastName: "Williams"
+      }],
+    },
+    7: {
+      AK: "Alaska",
+      WA: "Washington",
+      OR: "Oregon",
+      HI: "Hawaii",
+      CA: "California",
+    },
+    8: [100, "100", {value: 100}],
+    9: [Math.sqrt(11), Math.sqrt(17), Math.sqrt(23), Math.sqrt(31)],
+    10: {
+      firstName: "Rosalind",
+      lastName: "Franklin",
+      birthDate: new Date(1920, 6, 25),
+      deathDate: new Date(1958, 3, 15),
+    }
+};
